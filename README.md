@@ -1,12 +1,81 @@
-# React + Vite
+# 🚀 Xeno Campaign Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend for the **Xeno SDE** assignment built using **React**, **Vite**, **Tailwind CSS**, and **Radix UI**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌐 Live Deployment
 
-## Expanding the ESLint configuration
+Frontend deployed at: [https://frontend-alpha-cyan-94.vercel.app/](https://frontend-alpha-cyan-94.vercel.app/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 📦 Tech Stack
+
+- ⚛️ **React 19** – Functional components & hooks
+- ⚡ **Vite** – Lightning-fast build tool
+- 🎨 **Tailwind CSS 4** – Utility-first CSS framework
+- 🧱 **Radix UI** – Headless UI components for accessibility & control
+- 🔐 **JWT Decode** – Decode & verify user authentication token
+- 📡 **Axios** – HTTP client for API communication
+- 🧠 **Zustand** – Lightweight state management
+- 📋 **React Hook Form + Zod** – Form handling with schema validation
+- 🔐 **Google OAuth** – Auth via `@react-oauth/google`
+
+---
+
+## 🛠️ Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/Harshitron/frontend
+cd frontend
+
+# Install dependencies
+npm install
+```
+
+---
+
+## 🧪 Development
+
+```bash
+npm run dev
+```
+
+Runs the app locally on `http://localhost:5173`
+
+---
+
+## 🧱 Build for Production
+
+```bash
+npm run build
+```
+
+
+## 🔐 Environment Variables
+
+Create a `.env` file at the root of the frontend with:
+
+```env
+VITE_BACKEND_URL
+VITE_GOOGLE_CLIENT_ID
+```
+
+> Update the URLs & keys as per your actual values.
+
+---
+
+
+## ✅ Features
+
+- 🧑‍💼 Add and manage customers.
+- 🛍️ Create and manage customer orders.
+- 📢 Campaign Creation & History View
+- 🎯 Rule-Based Targeting
+- ✉️ Email Delivery Logs
+- 📊 Success/Failure Status of Campaigns
+- 🔒 Google OAuth Auth Flow
+- 🎨 Modern UI with Radix & Tailwind
