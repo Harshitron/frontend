@@ -1,4 +1,4 @@
-# 🚀 Xeno Campaign Frontend
+# 🚀 Xeno Frontend
 
 This is the frontend for the **Xeno SDE** assignment built using **React**, **Vite**, **Tailwind CSS**, and **Radix UI**.
 
