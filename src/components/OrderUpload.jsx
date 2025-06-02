@@ -29,7 +29,7 @@ export default function OrderUpload({  customers }) {
 
     try {
       const token = localStorage.getItem('token'); // token from backend
-      const res = await axios.post('http://localhost:5000/api/v1/orders/create', {...formData},{
+      const res = await axios.post('https://new-backend-vwpp.onrender.com/api/v1/orders/create', {...formData},{
           headers: {
             Authorization: `Bearer ${token}`, // this hits the `protect` middleware
           },
